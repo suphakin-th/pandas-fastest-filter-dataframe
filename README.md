@@ -23,3 +23,4 @@ Use pandas for query and filter data and made answer for fastest that i can.
 ### apply_time Took :  0.7549371719360352 sec
 ### vectorized_time Took :  0.010896444320678711 sec
 
+![alt text](https://github.com/suphakin-th/pandas-fastest-filter-dataframe/blob/main/result.png?raw=true)
