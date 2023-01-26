@@ -27,7 +27,6 @@ food_name = ['pizza', 'ice-cream', 'egg-fire', 'vegetables', 'almond', 'arugala'
 
 def get_data(size=1_000):
     df = pd.DataFrame()
-    size = 100_000
     df['age'] = np.random.randint(18, 110, size)
     df['time_in_bed'] = np.random.randint(4, 12, size)
     df['pct_sleeping'] = np.random.rand(size)
@@ -76,7 +75,7 @@ def vectorized_solve(df):
 
 
 if __name__ == '__main__':
-    df = get_data()
+    df = get_data(1000000)
 
     start_time = time.time()
     loop_solve(df)
